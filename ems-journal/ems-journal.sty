@@ -1,0 +1,31 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{ems-journal}[2025/02/28 EMS Journal Mock Package]
+
+\DeclareOption*{\PackageWarning{ems-journal}{Unknown option `\CurrentOption'}}
+\ProcessOptions\relax
+
+\RequirePackage{amsthm,amsmath,amssymb,amsfonts}
+\RequirePackage{enumitem}
+\RequirePackage{graphicx}
+\RequirePackage{hyperref}
+
+\newcommand{\emsauthor}[3]{}
+\newcommand{\givenname}[1]{#1}
+\newcommand{\surname}[1]{#1}
+\newcommand{\orcid}[1]{}
+\newcommand{\Emsaffil}[2]{}
+\newcommand{\department}[1]{}
+\newcommand{\organisation}[1]{}
+\newcommand{\rorid}[1]{}
+\newcommand{\address}[1]{}
+\newcommand{\zip}[1]{}
+\newcommand{\city}[1]{}
+\newcommand{\country}[1]{}
+\newcommand{\affemail}[1]{}
+\newcommand{\classification}[2][]{}
+\newcommand{\keywords}[1]{\par\vspace{1em}\noindent\textbf{Keywords:} #1}
+\newcommand{\titlemark}[1]{}
+
+\newenvironment{ack}{\section*{Acknowledgments}}{}
+\newenvironment{funding}{\section*{Funding}}{}
+\endinput
