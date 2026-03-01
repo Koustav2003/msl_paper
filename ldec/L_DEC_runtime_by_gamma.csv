@@ -1,0 +1,4 @@
+"model","exp_id","compute_tier","gamma","gamma_lab","net_size","decode_time_med","decode_time_mean","decode_time_q90"
+"folded_normal","L-DEC","laptop",0.4,"gamma=0.4",45,1e-06,0.00449889851852272,0.0200000000004366
+"folded_normal","L-DEC","laptop",0.2,"gamma=0.2",144,0.0100000000020373,0.0129577422222278,0.0299999999988358
+"folded_normal","L-DEC","laptop",0.1,"gamma=0.1",496,0.0499999999992724,0.0505814814814794,0.069999999999709
